@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+seed data
 
-Things you may want to cover:
+```
+bundle install
+rails db:migrate
+rails db:seed
+```
 
-* Ruby version
+run server
 
-* System dependencies
+```
+rails s
+```
 
-* Configuration
+visit http://localhost:3000/posts, destroy one post, and I do see bullet log
 
-* Database creation
 
-* Database initialization
+```
+USE eager loading detected
+  Comment => [:from_user]
+  Add to your query: .includes([:from_user])
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+USE eager loading detected
+  Comment => [:to_user]
+  Add to your query: .includes([:to_user])
+```
