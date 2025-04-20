@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/flyerhzm/bullet.git
+  revision: 34cc41a16b5b09bc47dbcbc4345974cf1702a917
+  specs:
+    bullet (8.0.4)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.11)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -85,9 +93,6 @@ GEM
     brakeman (7.0.2)
       racc
     builder (3.3.0)
-    bullet (8.0.4)
-      activesupport (>= 3.0.0)
-      uniform_notifier (~> 1.11)
     capybara (3.40.0)
       addressable
       matrix
@@ -368,7 +373,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   brakeman
-  bullet
+  bullet!
   capybara
   debug
   importmap-rails
