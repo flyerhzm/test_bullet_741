@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/flyerhzm/bullet.git
-  revision: 34cc41a16b5b09bc47dbcbc4345974cf1702a917
+  revision: d6df5fa068067957305d2041eb9941f4684acda4
   specs:
-    bullet (8.0.4)
+    bullet (8.0.5)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11)
 
